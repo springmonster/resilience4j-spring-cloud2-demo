@@ -1,5 +1,8 @@
 spring:
   cloud:
     config:
+      #      8090端口是Server的服务端口号
       uri: http://localhost:8090
       fail-fast: true
+server:
+  port: 8089

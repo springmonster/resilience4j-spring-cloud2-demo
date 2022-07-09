@@ -1,6 +1,7 @@
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // 使用了Spring Cloud Config
     implementation 'org.springframework.cloud:spring-cloud-config-server'
-    
+
     testImplementation 'io.projectreactor:reactor-test'
 }
